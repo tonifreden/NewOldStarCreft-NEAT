@@ -61,7 +61,7 @@ def eval_genomes(genomes, config):
     
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
     
-    pygame.time.set_timer(ADDENEMY, 500)
+    pygame.time.set_timer(ADDENEMY, 1000)
     
     pygame.time.set_timer(ADDENTITY, 500)
     
